@@ -1,20 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .headers{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
-    background-color:rgb(58, 125, 58);
+    background-color:rgb(115, 157, 231);
     color:rgb(245, 232, 232);
+    width:400px;
+    height:45px;
+    display:block;
+}
+
+.headers#top {
+width:400px;
+height:75px;
+border: 2px solid rgb(253, 181, 79);
+padding: 20px 20px;
+margin: auto;
+display:inline-block;
 }
 
 p,
 li{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
-    color:rgb(180, 25, 25);
+    color:rgb(253, 181, 79);
 }
 
  #top{
     font-size:32px;
     font-weight:bolder;
-    color:#540a0a;
+    color: rgb(253, 181, 79);
      }
