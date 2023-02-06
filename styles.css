@@ -13,7 +13,7 @@ html {
     color:rgb(245, 232, 232);
     width:400px;
     height:45px;
-    display:block;
+    display:flex;
 }
 
 .headers#top {
@@ -21,8 +21,7 @@ width:400px;
 height:75px;
 border: 2px solid rgb(253, 181, 79);
 padding: 20px 20px;
-margin: auto;
-display:inline-block;
+display:flex;
 }
 
 p,
@@ -37,3 +36,23 @@ li{
     font-weight:bolder;
     color: rgb(253, 181, 79);
      }
+
+.options {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:rgb(115, 157, 231);
+    border: 2px solid blue;
+    height: 75px;
+    width: auto;
+
+    flex-direction: row;
+    display:flex;
+  }
+
+.options div {
+    border: 2px solid black;
+    flex: auto;
+    text-align: center;
+   
+}
